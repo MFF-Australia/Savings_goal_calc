@@ -7,25 +7,18 @@ body {
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    /* Center content horizontally */
     align-items: center;
-    /* Center content vertically */
     min-height: 95vh;
-    /* Ensure the body takes at least the viewport height */
 }
 
 #calculator-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* Align items to the start of the container */
     padding: 20px;
     margin: 0 auto;
-    /* Center the container horizontally */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Optional: adds shadow for depth */
     max-width: 1000px;
-    /* Ensure container width is suitable */
 }
 
 #calculator-container {
@@ -37,7 +30,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* Ensure it takes the full width */
 }
 
 #input-sections {
@@ -48,7 +40,6 @@ body {
 .input-section,
 .chart-section {
     width: 48%;
-    /* Ensure each section takes nearly half of the width */
 }
 
 .input-container {
@@ -58,15 +49,11 @@ body {
 }
 
 .input-container label {
-
     flex: 0 0 180px;
     text-align: left;
-    /* Align label text to the left */
     padding-right: 10px;
     white-space: nowrap;
-    /* Prevent text wrapping */
 }
-
 
 .input-container input,
 .input-container select {
@@ -76,21 +63,16 @@ body {
     background-color: #eee;
     border: 1px solid #ccc;
     width: 80px;
-    /* Ensure all fields are the same width */
     box-sizing: border-box;
-    /* Ensure padding and border are included in the width */
 }
 
 #input-sections {
     flex: 1;
     margin-right: 10px;
-    /* Adjust space between input sections and chart */
 }
 
-
-
 #resetButton {
-    background-color: #03a678;
+    background-color: #3cbcdb; /* Replaced with blue */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -103,16 +85,14 @@ body {
 }
 
 #resetButton:hover {
-    background-color: #35b793;
+    background-color: #60efe8; /* Replaced with light blue */
 }
 
 /* Update the color of the text line */
 #deposit {
-    color: #238870;
-
+    color: #3cbcdb; /* Replaced with blue */
     margin-top: 20px;
 }
-
 
 .chart-section {
     text-align: center;
@@ -141,7 +121,6 @@ body {
 .logo {
     margin-top: 20px;
     width: 200px;
-    /* Adjust size as needed */
     height: auto;
 }
 
@@ -154,7 +133,6 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -193,8 +171,6 @@ body {
     }
 }
 
-
-
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -202,13 +178,11 @@ body {
 }
 
 h1 {
-    text-align: Center;
+    text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
-    /* Adjust font size as needed */
     color: #333;
     font-family: 'Georgia', serif;
-    /* Adjust the font family as needed */
 }
 
 h2 {
@@ -218,59 +192,42 @@ h2 {
     margin-bottom: 10px;
 }
 
-
-
-
-
 #chart-section {
     width: 400px;
     background-color: #fff;
-    /* Sets the background color to white */
     border-radius: 8px;
-    /* Rounds the corners of the chart container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Adds a subtle shadow for depth */
     padding: 20px;
-    /* Adds padding inside the chart container */
     margin: 20px 0;
-    /* Adds vertical spacing around the chart container */
     text-align: center;
-    /* Centers the title and the canvas within the section */
 }
 
 #chart-section h2 {
     margin-bottom: 20px;
-    /* Spacing below the chart title */
 }
 
 canvas {
     width: 100% !important;
-    /* Overrides any inline width to ensure it's full width */
     height: auto !important;
-    /* Maintains aspect ratio */
     margin-bottom: 20px;
-    /* Spacing below the chart before any legends or buttons */
     border-radius: 8px;
-    /* Rounded corners for canvas/chart */
 }
 
 button {
     padding: 10px 20px;
-    background-color: #03a678;
+    background-color: #3cbed8; /* Replaced with medium blue */
     color: white;
     border: none;
     border-radius: 4px;
-    /* Rounded corners for button */
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #35b793;
+    background-color: #60efe8; /* Replaced with light blue */
 }
 
 .result-item {
-    color: #35b793;
-    /* Color for the text */
+    color: #3cbcdb; /* Replaced with blue */
 }
 
 .results-section p {
@@ -280,9 +237,7 @@ button:hover {
 
 .results-section p span {
     float: right;
-    /* Aligns the result value to the right */
     margin-left: 20px;
-    /* Adds space between the label and the value */
 }
 
 .note {
@@ -293,15 +248,12 @@ button:hover {
     font-size: 14px;
     color: #333;
     max-width: 800px;
-    /* Ensures it doesn't exceed container width */
     word-wrap: break-word;
-    /* Allows breaking at any word */
 }
 
 .note p {
     margin: 0;
     line-height: 1.5;
-    /* Adjust for better readability */
 }
 
 @media (max-width: 768px) {
@@ -326,7 +278,6 @@ button:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
     padding-top: 60px;
 }
@@ -361,7 +312,6 @@ button:hover {
 
 .modal-content ul li {
     margin-bottom: 10px;
-    /* Adjust the value as needed */
 }
 
 .modal-content hr {
@@ -369,5 +319,4 @@ button:hover {
     height: 1px;
     background: #ccc;
     margin-bottom: 20px;
-    /* Adjust the spacing as needed */
 }
