@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('savingGoal').value = '$50,000';
         document.getElementById('frequency').value = 'monthly';
         document.getElementById('interestRate').value = '6%';
-        document.getElementById('savingTerm').value = '10';
+        document.getElementById('savingTerm').value = '10 year';
     }
 
     function openModal() {
